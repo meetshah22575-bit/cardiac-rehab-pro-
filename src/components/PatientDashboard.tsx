@@ -9,11 +9,11 @@ interface DashboardProps {
   patientName?: string;
 }
 
-export function PatientDashboard({ patientName = "Sarah" }: DashboardProps) {
+export function PatientDashboard({ patientName = "Mihir" }: DashboardProps) {
   const upcomingAppointments = [
     {
       id: 1,
-      provider: "Dr. Martinez",
+      provider: "Dr. Meet Shah",
       type: "Cardiology Follow-up",
       date: "Today",
       time: "2:30 PM",
@@ -21,7 +21,7 @@ export function PatientDashboard({ patientName = "Sarah" }: DashboardProps) {
     },
     {
       id: 2,
-      provider: "Lisa Chen, RN",
+      provider: "Hethvi Soni , RN",
       type: "Exercise Review",
       date: "Tomorrow",
       time: "10:00 AM",
