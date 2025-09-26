@@ -22,8 +22,8 @@ export function AppointmentScheduler() {
   const appointments: Appointment[] = [
     {
       id: 1,
-      provider: "Dr. Martinez",
-      specialty: "Cardiologist",
+      provider: "Dr. Meet ",
+      specialty: "physiotherapist",
       type: "Follow-up Consultation",
       date: "2024-01-15",
       time: "14:30",
@@ -33,8 +33,8 @@ export function AppointmentScheduler() {
     },
     {
       id: 2,
-      provider: "Lisa Chen, RN",
-      specialty: "Cardiac Rehabilitation Nurse",
+      provider: "Hethvi Soni, RN",
+      specialty: "physiotherapist",
       type: "Exercise Program Review",
       date: "2024-01-16",
       time: "10:00",
@@ -43,8 +43,8 @@ export function AppointmentScheduler() {
     },
     {
       id: 3,
-      provider: "Dr. Johnson",
-      specialty: "Cardiologist",
+      provider: "Dr. Riya",
+      specialty: "physiotherapist",
       type: "Monthly Check-up",
       date: "2024-01-10",
       time: "09:15",
